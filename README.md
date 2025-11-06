@@ -9,24 +9,22 @@ Integrantes:
 - Rafael Roveri Pires RA: 24007131
 - William Kenzo Nakao RA: 24005718
 
-Este projeto é uma simulação simplificada de um servidor de e-commerce, desenvolvido em Java
+## TEMA DO PROJETO:  Servidor simplificado de um e-commerce em java
 
 O objetivo principal é demonstrar a aplicação de técnicas de teste unitário (INTRACLASSE) e de integração (INTERCLASSE)
 
-## Estrutura do Projeto
-
-No pacote `br.com.ecommerce`, o projeto contém as classes:
+No pacote `br.com.ecommerce`, contém as classes:
 
 * **`Produto`**: Classe para itens com nome e preço.
-* **`Carrinho`**: Gerencia uma lista de produtos. Usado para testes de partição por **Categoria de Métodos**.
-* **`Pedido`**: Gerencia o ciclo de uma compra (CRIADO, PAGO, ENVIADO). Usada para testes de partição por **Estados**.
-* **`CompraService`**: Serviço principal que gerencia o fluxo de finalização de compra. Usado para os testes **INTERCLASSES**.
+* **`Carrinho`**: Gerencia uma lista de produtos. Usado para testes de partição por Categoria de Métodos.
+* **`Pedido`**: Gerencia o ciclo de uma compra (CRIADO, PAGO, ENVIADO). Usada para testes de partição por Estados.
+* **`CompraService`**: Serviço principal que gerencia o fluxo de finalização de compra. Usado para os testes INTERCLASSES.
 
-## Como Executar os Testes
+## Como Executar
 
-Este projeto é recomendado ser executado e configurado no **IntelliJ IDEA**.
+Recomendado executar e configurar no IntelliJ
 
-1.  Abra o projeto no IntelliJ.
+1.  Abra o projeto no IntelliJ
 2.  Faca o download das dependências
 3.  Navegue até as classes de teste:
     * `src/br.com.ecommerce/PedidoTest.java`
